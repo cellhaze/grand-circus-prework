@@ -1,0 +1,72 @@
+html {
+    background: linear-gradient(rgb(24, 26, 26), #838080);    
+}
+
+@font-face {
+font-family: 'LemonMilk.otf';
+src: url('http://www.dafont.com/lemon-milk.font');
+}
+
+body {
+    background-color: none;
+}
+
+header {
+    font-size: 30pt;
+    font-family: 'LemonMilk', sans-serif;
+    color: rgb(92, 226, 60);
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.97);
+    text-align: center;
+    text-shadow: 2px 5px rgba(7, 7, 7, 0.38);
+    padding-top: 6px;
+    padding-bottom: 10px;
+   
+}
+
+blockquote {
+    font-style: italic;
+    color: white;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    color: rgb(78, 183, 53);
+    font-family: 'LemonMilk';
+    float;
+    position: relative;
+    padding: 10px;
+    padding-left: 35px;
+    border-bottom-style: dotted;
+    border-bottom-color: white;
+
+}
+
+p {
+    background-color: rgba(255, 255, 255, 0.97);
+    border-radius: 4px;
+    padding: 15px;
+    
+    position: fixed left;
+}
+
+.maincontent {
+    width: 400px;
+    padding: 20px 30px;
+    margin: 0px 60px 0px 30px;
+}
+
+ol {
+    /*background-color:  white;*/
+    border-radius: 4px;
+    /margin: 10px;
+    /padding: 10px;
+    color: white;
+}
+
+skills {
+    /*
+    I wan't to change this but don't know how yet
+    font-family: Arial;
+    */
+}
