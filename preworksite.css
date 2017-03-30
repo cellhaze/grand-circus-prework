@@ -29,6 +29,31 @@ blockquote {
     color: white;
 }
 
+.toolbar img {
+    height: 30px;
+    width: 30px;
+}
+
+/*
+I will figure out why they align this way by adding a comma. i like it, i may use it later.
+
+.toolbar img {
+    height: 30px;
+    width: 30px;
+}
+*/
+
+.toolbar {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    /*background-color: #e2b6d2;*/
+    background: linear-gradient(to right, rgb(199, 191, 191), rgba(255, 255, 255, 0));
+    font-size: 13px;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 600;
+}
+
 h1, h2, h3 {
     text-transform: uppercase;
     color: rgb(78, 183, 53);
@@ -50,7 +75,7 @@ p {
     position: fixed left;
 }
 
-.maincontent {
+.main-content {
     width: 400px;
     padding: 20px 30px;
     margin: 0px 60px 0px 30px;
@@ -69,4 +94,30 @@ skills {
     I wan't to change this but don't know how yet
     font-family: Arial;
     */
+}
+
+
+/*FORM CSS, initially borrowed from http://stackoverflow.com/questions/17042201/how-to-style-input-and-submit-button-with-css
+*/
+
+input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=submit] {
+    font-family: 'LemonMilk';
+    font-size: 30px;
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
 }
